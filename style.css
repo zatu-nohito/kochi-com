@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* 背景を薄いグレーに */
+}
+
+.main {
+  background-color: #c7e9c0; /* 緑ベースの背景 */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#key, #memo {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+#memo {
+  height: 200px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4CAF50; /* 緑のボタン */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41; /* ホバー時の色の変化 */
+}
+
+
+.flyOtherPage{
+  padding-left:80px;
+  padding-right:80px;
+  align-items: right;
+}
